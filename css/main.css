@@ -16,8 +16,9 @@
   --accent-colour: #2196f3;
 }
 .container {
-  width: 1200px;
+  width: 1170px;
   padding: 0 15px;
+  margin: 0 auto;
 }
 .page {
   background-color: var(--main-bg-colour);
@@ -27,6 +28,8 @@
   font-size: 14px;
 }
 .list {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 
@@ -87,19 +90,28 @@
   color: var(--accent-colour);
 }
 .hero {
+  padding: 200px 0 280px 0;
+  text-align: center;
   background-color: var(--hero-footer-colour);
 }
 
 .hero-title {
+  margin: 0;
   color: var(--main-bg-colour);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
+
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 .cta {
+  margin-top: 30px;
+  border-style: none;
+  text-align: center;
+  padding: 10px 32px 10px 32px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   color: var(--main-bg-colour);
   background-color: var(--accent-colour);
   cursor: pointer;
@@ -110,7 +122,14 @@
   letter-spacing: 0.06em;
 }
 .title {
+  margin: 0;
   color: var(--title-colour);
+}
+.feature {
+  margin-top: 30px;
+}
+.pros {
+  padding: 94px 0 94px 0;
 }
 .features {
   font-size: 14px;
@@ -119,6 +138,7 @@
   text-transform: uppercase;
 }
 .feature-text {
+  margin: 10px 0 0 0;
   line-height: 1.71;
 }
 .section-title {
@@ -127,7 +147,11 @@
   line-height: 1.17;
   text-align: center;
 }
+.specialization {
+  padding-bottom: 94px;
+}
 .team {
+  padding: 94px 0 94px 0;
   background-color: var(--second-bg-colour);
   font-size: 16px;
   line-height: 1.19;
@@ -137,7 +161,10 @@
   font-size: 16px;
   font-weight: 500;
 }
-
+.member-position {
+}
+.team-card {
+}
 .button {
   color: var(--title-colour);
   background-color: var(--second-bg-colour);
